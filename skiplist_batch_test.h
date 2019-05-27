@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /* 
  * File:   skiplist_batch_test.h
  * Author: benjamin
@@ -18,12 +12,7 @@
 extern "C" {
 #endif
 
-    #include<stdint.h>
-    #include<stdio.h>
-    #include<string.h>
-    #include "../indexed_skiplist/indexed_skiplist.h"
-    #include "../indexed_skiplist/indexed_skiplist_long_int.h"
-    int skiplist_batch_test(int argc, char** argv);
+  int skiplist_batch_test(int argc, char** argv);
 
 #ifdef __cplusplus
 }
