@@ -6,8 +6,7 @@
  */
 
 #include "skiplist_batch_test.h"
-
 int main(int argc, char** argv) {
-    return skiplist_batch_test(argc, argv);
+  return skiplist_batch_test(argc, argv);
 }
 
